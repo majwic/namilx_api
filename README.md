@@ -32,7 +32,7 @@ mvn clean install
 ```dtd
 mvn spring-boot:run
 ```
-The application will start on 'http://localhost:80' by default
+The application will start on 'http://localhost:80' with Swagger documentation being accessible at 'http://localhost:80/swagger-ui/index.html' by default.
 
 ### Configuration
 Configuration properties can be found in 'src/main/resources/application.properties'. You can adjust settings such as JWT secrets, admin password, and database configurations here. By default, the application uses H2 for development and testing purposes. For production, you can configure an external database.
